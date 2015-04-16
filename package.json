@@ -1,0 +1,10 @@
+{
+  "name": "hexo-generator-douban",
+  "version": "0.0.1",
+  "description": "Douban generator plugin for Hexo",
+  "main": "index",
+  "devDependencies": {},
+  "dependencies": {
+    "request": "^2.55.0"
+  }
+}
