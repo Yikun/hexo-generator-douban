@@ -1,10 +1,7 @@
-var log = hexo.log;
-var request = require('request');
-var config = hexo.config.douban;
-var url = 'http://api.douban.com/v2/book/user/'+config.user+'/collections?status=read';
+var assign = require('object-assign');
 
-request(url, function(error, response, body) {
-    if (!error && response.statusCode == 200) {
-        //log.i(body);
-    }
-});
+hexo.config.douban = assign({
+    per_page: hexo.config.per_page,
+}, hexo.config.douban);
+
+hexo.extend.generator.register('douban', require('./lib/generator'));

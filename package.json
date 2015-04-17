@@ -5,6 +5,8 @@
   "main": "index",
   "devDependencies": {},
   "dependencies": {
-    "request": "^2.55.0"
+    "request": "^2.55.0",
+    "object-assign": "^2.0.0",
+    "hexo-pagination": "0.0.2"
   }
 }
