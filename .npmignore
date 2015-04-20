@@ -1,0 +1,3 @@
+.git*
+.npmignore
+.travis.yml

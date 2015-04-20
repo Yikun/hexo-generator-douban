@@ -4,7 +4,9 @@ Douban page generator plugin for Hexo.
 
 ## Install
 
-Coming soon.
+``` bash
+$ npm install hexo-generator-douban --save
+```
 
 ## Options
 

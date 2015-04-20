@@ -1,11 +1,25 @@
 {
   "name": "hexo-generator-douban",
-  "version": "0.0.1",
-  "description": "Douban generator plugin for Hexo",
-  "main": "index",
-  "devDependencies": {},
+  "version": "0.1.0",
+  "description": "Douban generator plugin for Hexo.",
+  "main": "index.js",
   "dependencies": {
     "object-assign": "^2.0.0",
     "urllib-sync": "^1.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yikun/hexo-generator-douban.git"
+  },
+  "keywords": [
+    "migrator",
+    "hexo",
+    "github",
+    "issue"
+  ],
+  "author": "Jiang Yikun",
+  "bugs": {
+    "url": "https://github.com/Yikun/hexo-generator-douban/issues"
+  },
+  "homepage": "https://github.com/Yikun/hexo-generator-douban"
 }
