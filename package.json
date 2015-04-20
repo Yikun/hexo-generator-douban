@@ -12,10 +12,9 @@
     "url": "https://github.com/Yikun/hexo-generator-douban.git"
   },
   "keywords": [
-    "migrator",
+    "generator",
     "hexo",
-    "github",
-    "issue"
+    "douban"
   ],
   "author": "Jiang Yikun",
   "bugs": {
